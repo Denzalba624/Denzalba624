@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.349)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+}
+li,a{
+text-decoration: none;
+}  
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.links{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.links li a{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: all 0.3s ease 0.1s;
+} 
+
+.links li a:hover{
+    font-size: 1.5em;
+    color: rgb(184, 183, 183);
+    transition: 0.2s;
+}
+.logo{  
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+.logo:hover{
+   color: orange;
+}
+.name{
+    display: grid;
+    place-items: center;
+    font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    transition: 0.10s;
+    letter-spacing: 5px;
+    font-size: 15em;
+    margin-top: 7%;
+}
+.about{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.349)),url(bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+}
+.about div{
+    color: white;
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-start;
+    padding: 15%;
+    margin-left: -8%;
+    max-width: 700px;
+}
+.about div p{
+    font-size: 2em;
+    text-align: left;
+}
+.about1{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.349)),url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+}
+.about1 div{
+    color: white;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    max-width: 700px;
+    margin-left: 45%;
+}
+.about1 div p{
+    font-size: 2em;
+}
+.about1 div h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.about3{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.418),rgba(0, 0, 0, 0.349)),url(bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about3 div{
+    color: white;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    max-width: 600px;
+}
+.about3 div p{
+    font-size: 2em;
+}
+.about3 .cont{
+    display: grid;
+    place-items: center;
+    margin-top: -25%;
+    margin-left: -5%;
+}
+.about3 .cont div{
+    display: flex;
+}
